@@ -1,0 +1,51 @@
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 270px;
+    margin-top: 130px;
+  }
+  
+  .search-result {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: -170px;
+  }
+  
+  .thumbnail {
+    margin-right: 20px; 
+  }
+  
+  .title {
+    margin-top: 1px;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 800px;
+  }
+  .channel-avatar img {
+    display: flex;
+    width: 24px; 
+    height: 24px;
+    border-radius: 50%; 
+  }
+  
+  .channel-name1 {
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-left: 30px; 
+    font-size: 13px;
+    margin-top: -20px;
+  }
+  .description {
+    margin-bottom: 10px;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+  }
+ .avaname p {
+  font-size: 13px;
+ }
+  
